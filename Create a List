@@ -1,0 +1,8 @@
+Write a program to create a list and display it. 
+
+n=int(input())
+l=[]
+for i in range(0,n):
+    temp=int(input())
+    l.append(temp)
+print(l)
