@@ -1,0 +1,11 @@
+Write a program to find the mean of the elements in the array. 
+
+a=[]
+n=int(input())
+sum=0
+for i in range(1,n+1):
+    a.append(int(input()))
+for i in a:
+    sum+=i
+print(sum/n)
+ 
